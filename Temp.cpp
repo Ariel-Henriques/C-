@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main( int nNumberofargs, char*  pszargs[]){
+int main( void){
 	int celsius;
 	cout << "Temperatura em Celsius: ";
 	cin >> celsius;

@@ -8,13 +8,19 @@ int main (void){
 	cout << "Numero: ";
 	cin >> n;	
 	int j = n;
-	while (j>1){
-		j = j - 1;
-		n = n * j;
+	if (n!=0){
+		while (j>1){
+			j = j - 1;
+			n = n * j;
 		
+		}
+	}
+	else{
+		n = 1;
 	}
 	cout << n;
 	return 0;
 }
 		
+	
 	

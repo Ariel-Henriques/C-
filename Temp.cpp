@@ -8,7 +8,7 @@ int main( void){
 	int celsius;
 	cout << "Temperatura em Celsius: ";
 	cin >> celsius;
-	int fahrenheit = (celsius*9/5) + 32;
+	int fahrenheit = (celsius*9/5.0) + 32;
 	cout << "Temperatura em Fahrenheit: ";
 	cout << fahrenheit << endl;
 	return 0;

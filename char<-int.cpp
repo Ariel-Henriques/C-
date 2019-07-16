@@ -8,7 +8,7 @@ int main (void){
 	cout << "Valor: ";
 	cin >> decimal;
 	char character;
-	character = decimal;
+	character = (char)decimal;
 	cout << "Char (ASCII) : " << character << endl;
 	return 0;
 }

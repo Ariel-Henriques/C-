@@ -5,7 +5,7 @@ using namespace std;
 int fatorial(int);
 
 int fatorial(int n){
-//returna fatorial de n
+//Retorna fatorial de n
 	if (n==0){
 		return 1;
 	}else{
